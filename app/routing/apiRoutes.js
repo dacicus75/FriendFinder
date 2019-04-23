@@ -1,5 +1,6 @@
 
 var friendsArray = require('../data/friends');
+//console.log(friendsArray);
 
 module.exports = function(app){
   //a GET route that displays JSON of all possible friends
@@ -11,7 +12,7 @@ module.exports = function(app){
     //grabs the new friend's scores to compare with friends in friendArray
     var newFriendScore = req.body.scores;
     var scoresArray = [];
-    
+    var bestMatch = 0;
     var bestGuess = 0;
 
     //runs through all current friends in list
@@ -29,7 +30,7 @@ module.exports = function(app){
     //after all friends are compared, find best match
     for(var i=0; i<scoresArray.length; i++){
       if(scoresArray[i] <= scoresArray[bestGuess]){
-        bestMatch = i;
+        bestGuess = i;
       }
     }
 
