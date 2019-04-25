@@ -19,7 +19,7 @@
 
 <body>
     <div class='container'>
-        <div class='card-panel yellow darken-1 col s12 center-align'>
+        <div class='#efebe9 brown lighten-5 lighten-2darken-1 col s12 center-align'>
             <h4><strong>Survey Questions</strong></h4>
             <div class='card-panel left-align white'>
                 <h5><strong>About You</strong></h5>
@@ -140,7 +140,7 @@
         <!-- Materialize Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
-            <h4>Meet Your New BFF</h4>
+            <h4>Say hello to your new best friend!</h4>
             <h5 id="matchName"></h5>
             <img id="matchPic" src="" alt="No Image" width = 250px>
           </div>
@@ -175,7 +175,7 @@ $(document).ready(function() {
             //creates a new friend from the values submitted
             var newFriend = {
                 name: $('#name').val().trim(),
-                profilePic: $('#photo').val().trim(),
+               photo: $('#photo').val().trim(),
                 scores: [
                     $('#question1').val(),
                     $('#question2').val(),
@@ -195,7 +195,7 @@ $(document).ready(function() {
             $.post(currentURL + "/api/friends", newFriend, function(data) {
                 //Grab the result from the AJAX post so that the best match's name and photo are displayed.
                 $("#matchName").text(data.name);
-                $("#matchPic").attr("src", data.profilePic);
+                $("#matchPic").attr("src", data.photo);
             });
             // Show the modal with the best match
                 $('.modal').modal();
