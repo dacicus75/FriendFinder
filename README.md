@@ -7,11 +7,12 @@
 
 ##Screenshots
 
-![friendFinder3](https://user-images.githubusercontent.com/46613441/56776715-cb4e2a00-679b-11e9-9b55-0ac88626c8a2.png)
+
+![friendFinder](https://user-images.githubusercontent.com/46613441/56776717-cbe6c080-679b-11e9-8c7f-c3b2e7e32cf8.png)
 
 ![friendFinder2](https://user-images.githubusercontent.com/46613441/56776716-cb4e2a00-679b-11e9-90f8-e69728fc909c.png)
 
-![friendFinder](https://user-images.githubusercontent.com/46613441/56776717-cbe6c080-679b-11e9-8c7f-c3b2e7e32cf8.png)
+![friendFinder3](https://user-images.githubusercontent.com/46613441/56776715-cb4e2a00-679b-11e9-9b55-0ac88626c8a2.png)
 
 ![friendFinder4](https://user-images.githubusercontent.com/46613441/56776718-cbe6c080-679b-11e9-92ab-9561d35be3da.png)
 
